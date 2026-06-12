@@ -1,4 +1,4 @@
-from zone_classifier.py import classify_zone
+from zone_classifier import classify_zone
 def main():
     full_data = {'Ampicillin': 12, 'Tetracycline': 17}
     final_result = classify_all(full_data)
